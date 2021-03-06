@@ -27,3 +27,7 @@ net localgroup "Remote Desktop Users" UserLoginName  /add
 ```
 net localgroup administrators
 ```
+#### To activate the Administrator account
+```
+net user administrator /active:yes
+```
